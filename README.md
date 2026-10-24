@@ -11,6 +11,10 @@ This repository contains the code and shareable data to reproduce the analyses, 
 ## 📄 Abstract
 Cyanobacterial harmful algal blooms (CyanoHABs) need synoptic monitoring at high revisit frequency and fine spatial resolution, a combination that no single satellite provides. This study harmonizes Sentinel-3 OLCI, Landsat 8/9 OLI/OLI-2 and Envisat MERIS observations with phycocyanin-sensitive indices built from true and virtual orange-band (620 nm) configurations. Using 770 in situ Rrs spectra (328 with paired phycocyanin), we evaluate common-band consistency, six cyanobacteria indices, matchup performance and sensor-to-sensor transferability. OLCI and MERIS are near-identical; OLI needs an empirical transfer. Enhanced Green Line Height (EGLH) and Green Line Height give the lowest errors under blocked cross-validation in western Lake Erie, an OLI-to-OLCI transfer is derived from one near-coincident overpass, and an independent 2024–2025 multi-lake test shows that EGLH agrees between satellite and in situ data and between sensors, while absolute PC outside Lake Erie needs regional calibration.
 
+<p align="center">
+  <img src="results/figures/graphical_abstract.png" alt="Graphical abstract: sensor timeline, EGLH construction, OLI to OLCI transfer and a Landsat 8 phycocyanin map of western Lake Erie" width="100%">
+</p>
+
 ## 🗂️ Repository layout
 
 ```
