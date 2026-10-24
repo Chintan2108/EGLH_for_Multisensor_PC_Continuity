@@ -53,7 +53,7 @@ Results are written to `results/figures/` and `results/tables/`.
 - **Processed data** needed for notebooks 01–07 and 10 are included in `data/` (see `data/README.md` for the data dictionary).
 - **Open spectra:** notebook 01 downloads the GLORIA dataset (Lehmann et al., 2023, CC-BY 4.0) into `data/external/` to simulate sensor bands from hyperspectral Rrs.
 - **Satellite data:** Sentinel-3 OLCI and Landsat scenes are available from the [Copernicus Data Space](https://dataspace.copernicus.eu/) and [USGS EarthExplorer](https://earthexplorer.usgs.gov/); atmospheric correction used [ACOLITE](https://github.com/acolite/acolite) (settings in `acolite/`). Spectral response functions are from the [NASA Ocean Biology RSR tables](https://oceandata.sci.gsfc.nasa.gov/rsr_tables/).
-- **2024–2025 field data (embargoed):** the in situ phycocyanin, radiometry and OLCI matchups from eight lakes are under a NASA and University of Georgia embargo and are not part of this repository. They are planned for release on [NASA SeaBASS](https://seabass.gsfc.nasa.gov/) when the project ends. Notebooks 08 and 09 run as soon as the three files described in `data/embargoed/README.md` are placed in `data/embargoed/`; until then they stop at the first cell that needs them. Collaborators can request the files from the authors.
+- **2024–2025 field data (embargoed):** the _in situ_ phycocyanin, radiometry and OLCI matchups from eight lakes are under a NASA and University of Georgia embargo and are not part of this repository. They are planned for release on [NASA SeaBASS](https://seabass.gsfc.nasa.gov/) when the project ends. Notebooks 08 and 09 need the three files described in `data/embargoed/README.md` to be placed in `data/embargoed/`.
 
 ## 🔗 Citation
 If you use this code or data in your research, please cite the paper:
@@ -61,11 +61,12 @@ If you use this code or data in your research, please cite the paper:
 @article{Kumar2026_EGLH,
   title   = {A Cross-calibrated Phycocyanin Index for Landsat and Ocean Color Sensors for Long-Term Monitoring of Cyanobacteria in Inland Waterbodies},
   author  = {Kumar, Abhishek and Maniyar, Chintan B. and Mishra, Deepak R.},
-  journal = {Harmful Algae},
+  journal = {Harmful Algae (under review)},
   year    = {2026}
 }
 ```
-Update the volume, pages and DOI (and the DOI badge above) once the paper is published.
+<!--Update the volume, pages and DOI (and the DOI badge above) once the paper is published.-->
+
 
 ---
 
